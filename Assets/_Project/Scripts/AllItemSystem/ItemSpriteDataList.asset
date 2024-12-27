@@ -41,3 +41,5 @@ MonoBehaviour:
     AvatarItem: {fileID: 21300000, guid: 44dc65116207f4b46aa85443dae5ad96, type: 3}
   - ID: 12
     AvatarItem: {fileID: 21300000, guid: 7b3876a2b72c44540a4bbd5aaba9e506, type: 3}
+  - ID: 13
+    AvatarItem: {fileID: 21300000, guid: e549d2c379a925d499271885f6ef9bd7, type: 3}

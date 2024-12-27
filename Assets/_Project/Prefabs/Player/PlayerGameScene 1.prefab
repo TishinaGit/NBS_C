@@ -2261,6 +2261,7 @@ MonoBehaviour:
   _playerState: {fileID: 6773089693865365536}
   RunSpeed: 10
   SprintSpeed: 20
+  _transformPlayer: {x: 0, y: 0, z: 0}
   _jumpSpeed: 3
   _gravity: 45
   _mainCameraTransform: {fileID: 0}
@@ -2814,9 +2815,9 @@ MonoBehaviour:
   _entityPrefab:
   - {fileID: 5478108250551458127, guid: 7b3b5f5f45bce074790569c27748628b, type: 3}
   _area: {fileID: 3838532073906710479}
-  _spawnMode: 0
-  _numSpawn: 1
-  _respawnTime: 1
+  _spawnMode: 1
+  _numSpawn: 0
+  _respawnTime: 10
 --- !u!114 &3838532073906710479
 MonoBehaviour:
   m_ObjectHideFlags: 0

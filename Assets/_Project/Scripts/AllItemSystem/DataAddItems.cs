@@ -14,7 +14,7 @@ public class DataAddItems : MonoBehaviour
     
     public void AddNone()
     {
-        _inventoryPanel.AddItem(ItemTypeEnum.None, 1, 0);
+        _inventoryPanel.AddItem(ItemTypeEnum.None, 0, 0);
     }
     public void AddPotion_0()
     {
@@ -63,5 +63,9 @@ public class DataAddItems : MonoBehaviour
     public void AddRedPotion_2()
     {
         _inventoryPanel.AddItem(ItemTypeEnum.RedPotion_2, 1, 12);
+    }
+    public void AddBlood()
+    {
+        _inventoryPanel.AddItem(ItemTypeEnum.Blood, 1, 13);
     }
 }

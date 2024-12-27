@@ -15,8 +15,6 @@
         RedPotion_0 = 10,
         RedPotion_1 = 11,
         RedPotion_2 = 12,
-        Bow = 13,
-        Apple = 14,
-
+        Blood= 13,  
     }
 }

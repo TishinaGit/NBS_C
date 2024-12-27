@@ -18,7 +18,7 @@ namespace Tools
         
         public string CreatePath(string fileName)
         {
-#if (UNITY_ANDROID || UNITY_IOS) && !UNITY_EDITOR
+#if (UNITY_ANDROID || UNITY_IOS || UNITY_STANDALONE) && !UNITY_EDITOR
             return Path.Combine(Application.persistentDataPath, fileName);
 #else
             fileName = "JsonEditorLoader/" + fileName + ".json";

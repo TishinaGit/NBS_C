@@ -63,6 +63,6 @@ public class AddItem : MonoBehaviour
 
     private void AddItems()
     {
-        _dataAddItems.AddPotion_0();
+        _dataAddItems.AddBlood();
     }
 }

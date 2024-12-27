@@ -19,6 +19,8 @@ namespace Controller
         [SerializeField] private float RunSpeed = 10f;
         [SerializeField] private float SprintSpeed = 20f;
 
+        [SerializeField] private Transform _transformPlayer;
+
         [SerializeField] private float _jumpSpeed = 1.0f;
         [SerializeField] private float _gravity = 25f;
         private float _verticalVelocity = 0f;
@@ -150,11 +152,12 @@ namespace Controller
         public void HandleRotation(Vector3 adjustedDirection)
         {
             if (isGameScene == true && _playerActionsInput != null && _aimTarget != null)
-            {
+            { 
                 if (_playerActionsInput.AttackPressed == true)
                 {
                     adjustedDirection = _aimTarget.transform.position;
-                    transform.LookAt(adjustedDirection);
+                    adjustedDirection.y = transform.position.y;
+                    transform.LookAt(adjustedDirection); 
                 }
             }
 

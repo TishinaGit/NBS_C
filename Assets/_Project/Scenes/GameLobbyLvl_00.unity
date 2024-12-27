@@ -1103,6 +1103,18 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 818859108}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &840569631 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1067534335711562402, guid: fa40fb366d146884f9073827a1bfe3f1,
+    type: 3}
+  m_PrefabInstance: {fileID: 6026224359231213318}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &854573655 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4811695255685389049, guid: dd7d5c1497a00da4ea1717669b0b881d,
@@ -2068,6 +2080,12 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 3366512289440862716, guid: a4aa2f7e38eeada4987bd3a09d408cb1,
     type: 3}
   m_PrefabInstance: {fileID: 5746112572934085513}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1985670174 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 839205821345493871, guid: 5370e0e884f7a57409199aa739440055,
+    type: 3}
+  m_PrefabInstance: {fileID: 956796156082341102}
   m_PrefabAsset: {fileID: 0}
 --- !u!114 &2008260491 stripped
 MonoBehaviour:
@@ -4392,7 +4410,11 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 839205821345493871, guid: 5370e0e884f7a57409199aa739440055,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7187595885212985368}
   m_SourcePrefab: {fileID: 100100000, guid: 5370e0e884f7a57409199aa739440055, type: 3}
 --- !u!4 &973761104918254625
 Transform:
@@ -8537,6 +8559,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: InventoryBloodCanvas
       objectReference: {fileID: 0}
+    - target: {fileID: 3755650864779158794, guid: 8a2239475a62a6149a8aa7a8e6f3f1b9,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -9127,10 +9154,30 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1075253658845264176, guid: 9ab49514c98ef804c85a66d227b5530d,
+        type: 3}
+      propertyPath: far clip plane
+      value: 70
+      objectReference: {fileID: 0}
     - target: {fileID: 2147593302657633611, guid: 9ab49514c98ef804c85a66d227b5530d,
         type: 3}
       propertyPath: m_Name
       value: CameraSystem
+      objectReference: {fileID: 0}
+    - target: {fileID: 6651913655875875976, guid: 9ab49514c98ef804c85a66d227b5530d,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.010000229
+      objectReference: {fileID: 0}
+    - target: {fileID: 6651913655875875976, guid: 9ab49514c98ef804c85a66d227b5530d,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.5700002
+      objectReference: {fileID: 0}
+    - target: {fileID: 6651913655875875976, guid: 9ab49514c98ef804c85a66d227b5530d,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -7
       objectReference: {fileID: 0}
     - target: {fileID: 7835531954538386978, guid: 9ab49514c98ef804c85a66d227b5530d,
         type: 3}
@@ -14574,10 +14621,60 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2045106553}
     m_Modifications:
+    - target: {fileID: 2156848345261468822, guid: fa40fb366d146884f9073827a1bfe3f1,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 7187595885212985368}
+    - target: {fileID: 2156848345261468822, guid: fa40fb366d146884f9073827a1bfe3f1,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: BTM_TakeBluePotion_2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3819591054560400553, guid: fa40fb366d146884f9073827a1bfe3f1,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 7187595885212985368}
+    - target: {fileID: 3819591054560400553, guid: fa40fb366d146884f9073827a1bfe3f1,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: BTM_TakeBluePotion_1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3849014200654203146, guid: fa40fb366d146884f9073827a1bfe3f1,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5423002825612010249, guid: fa40fb366d146884f9073827a1bfe3f1,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6415065811362672852, guid: fa40fb366d146884f9073827a1bfe3f1,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7159955523945242901, guid: fa40fb366d146884f9073827a1bfe3f1,
         type: 3}
       propertyPath: m_Name
       value: InventoryLiquidStorageCanvas
+      objectReference: {fileID: 0}
+    - target: {fileID: 7159955523945242901, guid: fa40fb366d146884f9073827a1bfe3f1,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7854755812493674517, guid: fa40fb366d146884f9073827a1bfe3f1,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 7187595885212985368}
+    - target: {fileID: 7854755812493674517, guid: fa40fb366d146884f9073827a1bfe3f1,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: BTM_TakeBluePotion_0
       objectReference: {fileID: 0}
     - target: {fileID: 8375129385095966259, guid: fa40fb366d146884f9073827a1bfe3f1,
         type: 3}
@@ -14679,7 +14776,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 4415908013373211869, guid: fa40fb366d146884f9073827a1bfe3f1, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -16436,6 +16534,23 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 956796156082341102}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &7187595885212985368
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1985670174}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f07c7507dd9f0c4e983caf2adeb297b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _inventoryPanel: {fileID: 0}
+  _uiWaterScales: {fileID: 840569631}
+  _bluePotion_0: {fileID: 21300000, guid: b7f77607c82ea4142a2070c0e37e1756, type: 3}
+  _bluePotion_1: {fileID: 21300000, guid: 2d7d9ae02b7159843ac7d5ead0f8b89a, type: 3}
+  _bluePotion_2: {fileID: 21300000, guid: ace8a02646afeda4880fc3cb14cad705, type: 3}
 --- !u!224 &7194432905947529703
 RectTransform:
   m_ObjectHideFlags: 0

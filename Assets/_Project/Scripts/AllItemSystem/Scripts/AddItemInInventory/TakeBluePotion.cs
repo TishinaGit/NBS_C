@@ -1,5 +1,7 @@
 using Inventory;
+using System.Collections;
 using UnityEngine;
+using UnityEngine.Analytics;
 using UnityEngine.UI;
 using Zenject;
 
@@ -32,10 +34,10 @@ public class TakeBluePotion : MonoBehaviour
     {
         if (_uiWaterScales.fillAmount != 1f)
         {
-            _uiWaterScales.fillAmount += 0.05f * Time.deltaTime; 
-        } 
+             _uiWaterScales.fillAmount += 0.05f * Time.deltaTime; 
+        }
     }
-
+  
     public void BTM_TakeBluePotion_0()
     {
         if (_uiWaterScales.fillAmount > 0.19f)
