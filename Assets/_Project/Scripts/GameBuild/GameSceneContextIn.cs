@@ -13,8 +13,7 @@ public class GameSceneContextIn : MonoInstaller
     public GameObject PlayerPrefab;
     public GameObject AimTargetForCamera;
     public Camera CameraPlayer;
-    public RectTransform RectTransformAimImage;
-
+    
     public AddSpriteForItem AddSpriteForItem;
     public List<InventoryCell> InventoryCells; 
     public List<GameObject> ItemsData;
@@ -23,10 +22,10 @@ public class GameSceneContextIn : MonoInstaller
     public TMP_Text UIScoreText;
     public DataAddItems _dataAddItems;
     public Entity EnemyPrefab;
-    public override void InstallBindings()
-    {
-        RectTransformImage();
+    public EventDeathPlayer EventDeathPlayer;
 
+    public override void InstallBindings()
+    {  
         PlayerCamera();
 
         CameraAimTarget();
@@ -41,6 +40,8 @@ public class GameSceneContextIn : MonoInstaller
 
         ListGameObjectsInventoryCells();
 
+        EventDeathPlayerObject(); 
+
         Player(); 
 
         InventoryPanelGameScene();
@@ -51,13 +52,10 @@ public class GameSceneContextIn : MonoInstaller
 
         DataAddItem();
 
-        EnemyObject();
+        EnemyObject(); 
     }
 
-    public void RectTransformImage()
-    {
-        Container.Bind<RectTransform>().FromInstance(RectTransformAimImage).AsSingle();
-    }
+     
     public void PlayerCamera()
     {
         Container.Bind<Camera>().FromInstance(CameraPlayer).AsSingle();
@@ -110,5 +108,9 @@ public class GameSceneContextIn : MonoInstaller
     public void EnemyObject()
     {
         Container.Bind<Entity>().FromInstance(EnemyPrefab).AsSingle();
+    }
+    public void EventDeathPlayerObject()
+    {
+        Container.Bind<EventDeathPlayer>().FromInstance(EventDeathPlayer).AsSingle().NonLazy();
     }
 } 

@@ -5,8 +5,7 @@ using Zenject;
 
 public class Destructible : Entity, ISerializableEntity
 {
-	#region Properties
-
+	[SerializeField] private bool _isPlayer;
 	 
 	[SerializeField] private bool _indestructible;
 	public bool IsIndestructible => _indestructible;
@@ -19,17 +18,21 @@ public class Destructible : Entity, ISerializableEntity
     [SerializeField] private int _currentHitPoints;
 	public int HitPoints => _currentHitPoints;
 
-	private bool _isDeath = false;
+    [SerializeField] private bool _isDeath;
 	public bool IsDeath => _isDeath;
 
-	 public UIPlayerHealthBar _healthBar;
+    public UIPlayerHealthBar _healthBar;
+	public EventDeathPlayer _eventDeathPlayer;
 
-    #endregion
-
+	[Inject]
+	public void Construct(EventDeathPlayer EventDeathPlayer)
+	{
+		_eventDeathPlayer = EventDeathPlayer;
+	}
 
     #region Unity Events
-	 
-	protected virtual void Start()
+
+    protected virtual void Start()
 	{
 		_currentHitPoints = _hitPoints;
 
@@ -98,9 +101,18 @@ public class Destructible : Entity, ISerializableEntity
 
 	 
 	protected virtual void OnDeath()
-	{
-		Destroy(gameObject);
-		_eventOnDeath?.Invoke();
+	{  
+		if (_isPlayer == true && _eventDeathPlayer != null)
+		{
+			_eventDeathPlayer.DeathPlayerEvent();
+            _eventOnDeath?.Invoke();
+            gameObject.SetActive(false); 
+        }
+		else
+		{
+            Destroy(gameObject);
+            _eventOnDeath?.Invoke();
+        } 
 	}
 
 

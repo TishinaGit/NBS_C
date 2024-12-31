@@ -47,10 +47,14 @@ public class AIDrone : MonoBehaviour
             _movementPosition = _movementArea.GetRandomInsideZone();
         }
 
-        if (Vector3.Distance(transform.position, _player.position) < _angryDistance)
+        if(_player != null)
         {
-            _shootTarget = _player;
+            if (Vector3.Distance(transform.position, _player.position) < _angryDistance)
+            {
+                _shootTarget = _player;
+            }
         }
+       
 
         _drone.MoveTo(_movementPosition);
 

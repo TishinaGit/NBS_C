@@ -13,9 +13,8 @@ public class PlayerShooter : MonoBehaviour
     public bool _couldown;
 
     [Inject]
-    public void Construct(RectTransform RectTransformAimImage, Camera CameraPlayer)
-    {
-        _rectTransformAimImage = RectTransformAimImage;
+    public void Construct( Camera CameraPlayer)  
+    { 
         _camera = CameraPlayer;
     }
 

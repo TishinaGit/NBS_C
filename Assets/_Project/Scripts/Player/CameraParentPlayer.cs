@@ -28,6 +28,6 @@ public class CameraParentPlayer : MonoBehaviour
         _cinemachineFreeLook.Follow = _controller.gameObject.transform;
         _cinemachineFreeLook.LookAt = _controller.gameObject.transform; 
         _cameraSystem.transform.parent = _controller.transform;
-    }  
+    }   
 } 
 
