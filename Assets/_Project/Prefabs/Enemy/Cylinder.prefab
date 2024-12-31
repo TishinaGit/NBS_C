@@ -237,4 +237,4 @@ MonoBehaviour:
   m_Nickname: 
   _velocity: 30
   _lifeTime: 2
-  _damage: 300
+  _damage: 5

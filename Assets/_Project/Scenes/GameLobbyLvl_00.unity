@@ -8314,11 +8314,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: InventoryBloodCanvas
       objectReference: {fileID: 0}
-    - target: {fileID: 3755650864779158794, guid: 8a2239475a62a6149a8aa7a8e6f3f1b9,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8909,30 +8904,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1075253658845264176, guid: 9ab49514c98ef804c85a66d227b5530d,
-        type: 3}
-      propertyPath: far clip plane
-      value: 70
-      objectReference: {fileID: 0}
     - target: {fileID: 2147593302657633611, guid: 9ab49514c98ef804c85a66d227b5530d,
         type: 3}
       propertyPath: m_Name
       value: CameraSystem
-      objectReference: {fileID: 0}
-    - target: {fileID: 6651913655875875976, guid: 9ab49514c98ef804c85a66d227b5530d,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0.010000229
-      objectReference: {fileID: 0}
-    - target: {fileID: 6651913655875875976, guid: 9ab49514c98ef804c85a66d227b5530d,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 1.5700002
-      objectReference: {fileID: 0}
-    - target: {fileID: 6651913655875875976, guid: 9ab49514c98ef804c85a66d227b5530d,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -7
       objectReference: {fileID: 0}
     - target: {fileID: 7835531954538386978, guid: 9ab49514c98ef804c85a66d227b5530d,
         type: 3}
@@ -14150,56 +14125,21 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 7187595885212985368}
-    - target: {fileID: 2156848345261468822, guid: fa40fb366d146884f9073827a1bfe3f1,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: BTM_TakeBluePotion_2
-      objectReference: {fileID: 0}
     - target: {fileID: 3819591054560400553, guid: fa40fb366d146884f9073827a1bfe3f1,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 7187595885212985368}
-    - target: {fileID: 3819591054560400553, guid: fa40fb366d146884f9073827a1bfe3f1,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: BTM_TakeBluePotion_1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3849014200654203146, guid: fa40fb366d146884f9073827a1bfe3f1,
-        type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5423002825612010249, guid: fa40fb366d146884f9073827a1bfe3f1,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6415065811362672852, guid: fa40fb366d146884f9073827a1bfe3f1,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 7159955523945242901, guid: fa40fb366d146884f9073827a1bfe3f1,
         type: 3}
       propertyPath: m_Name
       value: InventoryLiquidStorageCanvas
       objectReference: {fileID: 0}
-    - target: {fileID: 7159955523945242901, guid: fa40fb366d146884f9073827a1bfe3f1,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 7854755812493674517, guid: fa40fb366d146884f9073827a1bfe3f1,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 7187595885212985368}
-    - target: {fileID: 7854755812493674517, guid: fa40fb366d146884f9073827a1bfe3f1,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: BTM_TakeBluePotion_0
-      objectReference: {fileID: 0}
     - target: {fileID: 8375129385095966259, guid: fa40fb366d146884f9073827a1bfe3f1,
         type: 3}
       propertyPath: m_Pivot.x
@@ -14300,8 +14240,7 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 4415908013373211869, guid: fa40fb366d146884f9073827a1bfe3f1, type: 3}
+    m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []

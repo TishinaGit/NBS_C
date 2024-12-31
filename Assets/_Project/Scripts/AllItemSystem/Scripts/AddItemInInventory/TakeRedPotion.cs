@@ -21,34 +21,14 @@ public class TakeRedPotion : MonoBehaviour
     public void Construct(InventoryPanel InventoryPanel)
     {
         _inventoryPanel = InventoryPanel; 
-    }
-
-    private void Awake()
-    {
-        _uiWaterScales.fillAmount = 1f;
-    }
-
-    private void Update()
-    {
-        if (_uiWaterScales.fillAmount != 1f)
-        {
-            _uiWaterScales.fillAmount += 0.05f * Time.deltaTime;
-        }
-
-    }
-
+    } 
     public void BTM_TakeBluePotion_0()
     {
         if (_uiWaterScales.fillAmount > 0.19f)
         {
             _inventoryPanel.AddItem(ItemTypeEnum.RedPotion_0, 1,  10); //_RedPotion_0,
             _uiWaterScales.fillAmount = _uiWaterScales.fillAmount - _minusRedPotion_0;
-        }
-        else
-        {
-
-        }
-
+        }  
     }
     public void BTM_TakeBluePotion_1()
     {
@@ -56,12 +36,7 @@ public class TakeRedPotion : MonoBehaviour
         {
             _inventoryPanel.AddItem(ItemTypeEnum.RedPotion_1, 1,  11); //_RedPotion_1,
             _uiWaterScales.fillAmount = _uiWaterScales.fillAmount - _minusRedPotion_1;
-        }
-        else
-        {
-
-        }
-
+        }   
     }
     public void BTM_TakeBluePotion_2()
     {
@@ -69,11 +44,6 @@ public class TakeRedPotion : MonoBehaviour
         {
             _inventoryPanel.AddItem(ItemTypeEnum.RedPotion_2, 1,  12);//  _RedPotion_2,
             _uiWaterScales.fillAmount = _uiWaterScales.fillAmount - _minusRedPotion_2;
-        }
-        else
-        {
-
-        }
-
+        }  
     }
 }

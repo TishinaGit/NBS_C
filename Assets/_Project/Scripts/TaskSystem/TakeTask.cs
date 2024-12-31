@@ -16,18 +16,27 @@ namespace Task
             InitIndexTask();
              PlayerPrefs.SetInt("_indexCurrentTask", _indexCurrentTask);
         }
-         
+
+        //public void Update()
+        //{
+        //    if (Input.GetKey(KeyCode.R))
+        //    {
+        //        _indexCurrentTask = 0;
+        //        PlayerPrefs.SetInt("_indexCurrentTask", _indexCurrentTask);
+        //    }
+        //}
+
         private void InitIndexTask()
         {
             for (int i = 0; i < _listTaskSo.ListTasks.Count; i++)
             {
                 _listTaskSo.ListTasks[i].IndexTask(i);
             }
-        }
+        } 
 
         private void RandomPotion()
         {
-            int _saveIndex = PlayerPrefs.GetInt("_saveIndex");
+            int _saveIndex = PlayerPrefs.GetInt("_indexCurrentTask");
             var task = _listTaskSo.ListTasks[_saveIndex]; 
             for (int i = 0; i < task.listTasks.Count; i++)
             {
