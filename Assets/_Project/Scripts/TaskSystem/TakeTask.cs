@@ -9,14 +9,29 @@ namespace Task
         [SerializeField] private List<UITaskData> _uiTaskData;
 
         public int _indexCurrentTask;
-         
-        private void Awake()
+
+        [SerializeField] private GameObject _tasks—ompleted;
+
+        private void OnEnable()
         {
-            RandomPotion();
-            InitIndexTask();
-            PlayerPrefs.SetInt("_indexCurrentTask", _indexCurrentTask);
+            CheckCountTask();
         }
-         
+
+        private void Awake()
+        { 
+            GiveTaskPotion();
+            InitIndexTask();
+            PlayerPrefs.SetInt("_currentTask", _indexCurrentTask); 
+        }
+
+        //public void Update()
+        //{
+        //    if (Input.GetKey(KeyCode.Space))
+        //    {
+        //        _indexCurrentTask = 0;
+        //         PlayerPrefs.SetInt("_currentTask", _indexCurrentTask);
+        //    }
+        //}
         private void InitIndexTask()
         {
             for (int i = 0; i < _listTaskSo.ListTasks.Count; i++)
@@ -25,9 +40,9 @@ namespace Task
             }
         } 
 
-        private void RandomPotion()
-        {
-            int _saveIndex = PlayerPrefs.GetInt("_indexCurrentTask");
+        private void GiveTaskPotion()
+        { 
+            int _saveIndex = PlayerPrefs.GetInt("_currentTask");
             var task = _listTaskSo.ListTasks[_saveIndex]; 
 
             for (int i = 0; i < task.listTasks.Count; i++)
@@ -40,27 +55,32 @@ namespace Task
             }
         }
 
-        public void PlusIndexList(int index)
+        private void CheckCountTask()
         {
-            if (_indexCurrentTask >= _listTaskSo.ListTasks.Count)
-            {
-                return;
+            if (_listTaskSo.ListTasks.Count > _indexCurrentTask + 1)
+            {  
+                _tasks—ompleted.SetActive(false); 
             }
             else
             {
+                _tasks—ompleted.SetActive(true);
+            }
+        }
+
+        public void PlusIndexList(int index)
+        { 
+            if (_listTaskSo.ListTasks.Count > _indexCurrentTask + 1)
+            {
+                Debug.Log("2"); 
                 _indexCurrentTask += index;
-                PlayerPrefs.SetInt("_indexCurrentTask", _indexCurrentTask);
-                RandomPotion();
+               PlayerPrefs.SetInt("_currentTask", _indexCurrentTask); 
+                GiveTaskPotion();
             } 
+            else
+            {
+                CheckCountTask();
+            }
         } 
     }
 }
 
-//public void Update()
-//{
-//    if (Input.GetKey(KeyCode.Space))
-//    {
-//        _indexCurrentTask = 0;
-//        PlayerPrefs.SetInt("_indexCurrentTask", _indexCurrentTask);
-//    }
-//}

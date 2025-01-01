@@ -5,33 +5,33 @@ using Data;
 
 using ReceiptsSystem;
 using Inventory;
-  
+
 namespace CraftSystem
 {
     public class Crafts : MonoBehaviour
     {
         [SerializeField] private CraftSO _craftSO;
         [SerializeField] private GetItemAfterCreation _getItemAfterCreation;
-        [SerializeField] private InventoryPanel _inventoryPanel; 
+        [SerializeField] private InventoryPanel _inventoryPanel;
 
-        public List<InventoryCell> _cellItemData; 
+        public List<InventoryCell> _cellItemData;
 
         private void OnEnable()
         {
-            CraftPanelInCellMove.SearchDataCell += CraftPotion; 
+            CraftPanelInCellMove.SearchDataCell += CraftPotion;
         }
 
         private void OnDisable()
         {
-            CraftPanelInCellMove.SearchDataCell -= CraftPotion; 
-        } 
+            CraftPanelInCellMove.SearchDataCell -= CraftPotion;
+        }
 
         public void CraftPotion()
         {
             foreach (var receipts in _craftSO.ReceiptsPotions)
             {
                 receipts.isCraft = false;
-               
+
 
                 foreach (var itemReceipt in receipts.itemsForReceiptstStructs)
                 {
@@ -41,15 +41,15 @@ namespace CraftSystem
                                    cell.CurrentData.Type == itemReceipt.ItemType &&
                                    cell.CurrentData.Count >= itemReceipt.Count);
 
-                    CheckingMaterials(dataCell, itemReceipt, receipts); 
+                    CheckingMaterials(dataCell, itemReceipt, receipts);
                 }
             }
-        }  
-         
-        private void CheckingMaterials(InventoryCell dataCell, ItemsForReceptStruct itemReceipt, Receipts receipts)  
-        { 
+        }
+
+        private void CheckingMaterials(InventoryCell dataCell, ItemsForReceptStruct itemReceipt, Receipts receipts)
+        {
             receipts.isCraft = false;
-            itemReceipt.isInStock = false; 
+            itemReceipt.isInStock = false;
             if (dataCell != null)
             {
                 itemReceipt.isInStock = true;
@@ -57,58 +57,57 @@ namespace CraftSystem
 
             for (var i = 0; i < receipts.itemsForReceiptstStructs.Count; i++)  //Ref!!!
             {
-
                 if (receipts.itemsForReceiptstStructs[0].isInStock == true && receipts.itemsForReceiptstStructs[1].isInStock == true)
                 {
                     receipts.isCraft = true;
 
-                    _getItemAfterCreation.SetPropertiesCreateItem(receipts.ItemPotionType, receipts.Count.ToString(), receipts.AvatarItem ,receipts.ID);
+                    _getItemAfterCreation.SetPropertiesCreateItem(receipts.ItemPotionType, receipts.Count.ToString(), receipts.AvatarItem, receipts.ID);
 
                     CheckBTMActive(dataCell, receipts);
 
                 }
                 else break;
             }
-        } 
-         
+        }
+
         private void CheckBTMActive(InventoryCell dataCell, Receipts receipts)
-        { 
+        {
             if (_getItemAfterCreation.isBTMClick == true)
             {
-                CreateItem(receipts);  
-                RemoveMaterial(receipts); 
+                CreateItem(receipts);
+                RemoveMaterial(receipts);
                 _inventoryPanel.Save();
                 dataCell.ReDraw();
                 DataCentralService.Instance.InventoryStates.UpdateCellData(dataCell.CurrentData);
                 _getItemAfterCreation.isBTMClick = false;
 
             }
-        } 
+        }
 
         public void CellGet(InventoryCell cell)
         {
             _cellItemData.Add(cell);
-            _getItemAfterCreation.ItemTakeCheck();  
-        } 
+            _getItemAfterCreation.ItemTakeCheck();
+        }
 
         private void CreateItem(Receipts receipt)
         {
-             _inventoryPanel.AddItem(receipt.ItemPotionType, receipt.Count, receipt.ID); 
-        } 
+            _inventoryPanel.AddItem(receipt.ItemPotionType, receipt.Count, receipt.ID);
+        }
 
         private void RemoveMaterial(Receipts receipts)
         {
             foreach (var RemoveData in _cellItemData)
             {
                 _inventoryPanel.RemoveItem(RemoveData.CurrentData.Type, receipts.Count);
-            } 
+            }
         }
 
-        public void RemoveCellItemDataFromList(InventoryCell cellData) 
-        { 
-            _cellItemData.Remove(cellData); 
-             _getItemAfterCreation.ItemTakeCheck();
+        public void RemoveCellItemDataFromList(InventoryCell cellData)
+        {
+            _cellItemData.Remove(cellData);
+            _getItemAfterCreation.ItemTakeCheck();
         }
-          
+
     }
-}
+} 

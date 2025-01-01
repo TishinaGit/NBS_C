@@ -27,13 +27,13 @@ public class TakeBlood : MonoBehaviour
     private void OnEnable()
     {
         SearchBloodInCell();
-        _uiWaterScales.fillAmount = PlayerPrefs.GetFloat("Scale", _uiWaterScales.fillAmount);
+        _uiWaterScales.fillAmount = PlayerPrefs.GetFloat("ScaleImage", _uiWaterScales.fillAmount);
     }
 
     private void OnDisable()
     {
         UIWaterScales();
-        PlayerPrefs.SetFloat("Scale", _uiWaterScales.fillAmount);
+        PlayerPrefs.SetFloat("ScaleImage", _uiWaterScales.fillAmount);
     }
 
     public void SearchBloodInCell()
