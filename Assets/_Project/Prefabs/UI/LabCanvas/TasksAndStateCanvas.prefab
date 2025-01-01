@@ -1092,6 +1092,7 @@ GameObject:
   - component: {fileID: 2431911368444236045}
   - component: {fileID: 3636625545931312980}
   - component: {fileID: 9210936780463522514}
+  - component: {fileID: 4810041484240293146}
   m_Layer: 0
   m_Name: TasksAndStateCanvas
   m_TagString: Untagged
@@ -1195,15 +1196,31 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2705461d1cfcabd4b98980488c31afc4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _takeTask: {fileID: 4385966147869020618}
+  _takeTask: {fileID: 4810041484240293146}
   _listTaskSo: {fileID: 11400000, guid: 685acba39697aeb4b83ce096ad7e825a, type: 2}
-  _inventoryPanel: {fileID: 0}
-  _slotItemData: []
   _uiTasks:
   - {fileID: 8181302884116792339}
   - {fileID: 2530087044658882603}
   - {fileID: 2638595007819300146}
   InStockInt: 0
+--- !u!114 &4810041484240293146
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3383200173161547044}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3286dde0dca5fc44c8abd32c97d918a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _listTaskSo: {fileID: 11400000, guid: 685acba39697aeb4b83ce096ad7e825a, type: 2}
+  _uiTaskData:
+  - {fileID: 8181302884116792339}
+  - {fileID: 2530087044658882603}
+  - {fileID: 2638595007819300146}
+  _indexCurrentTask: 0
 --- !u!1 &4215603534963673803
 GameObject:
   m_ObjectHideFlags: 0
@@ -2980,7 +2997,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8820500024075131598}
-  - component: {fileID: 4385966147869020618}
   m_Layer: 0
   m_Name: Tasks
   m_TagString: Untagged
@@ -3010,24 +3026,6 @@ RectTransform:
   m_AnchoredPosition: {x: 50, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &4385966147869020618
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7150814149262475055}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3286dde0dca5fc44c8abd32c97d918a1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _listTaskSo: {fileID: 11400000, guid: 685acba39697aeb4b83ce096ad7e825a, type: 2}
-  _uiTaskData:
-  - {fileID: 8181302884116792339}
-  - {fileID: 2530087044658882603}
-  - {fileID: 2638595007819300146}
-  _indexCurrentTask: 0
 --- !u!1 &7188339602984977109
 GameObject:
   m_ObjectHideFlags: 0

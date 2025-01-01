@@ -14,18 +14,9 @@ namespace Task
         {
             RandomPotion();
             InitIndexTask();
-             PlayerPrefs.SetInt("_indexCurrentTask", _indexCurrentTask);
+            PlayerPrefs.SetInt("_indexCurrentTask", _indexCurrentTask);
         }
-
-        //public void Update()
-        //{
-        //    if (Input.GetKey(KeyCode.R))
-        //    {
-        //        _indexCurrentTask = 0;
-        //        PlayerPrefs.SetInt("_indexCurrentTask", _indexCurrentTask);
-        //    }
-        //}
-
+         
         private void InitIndexTask()
         {
             for (int i = 0; i < _listTaskSo.ListTasks.Count; i++)
@@ -38,6 +29,7 @@ namespace Task
         {
             int _saveIndex = PlayerPrefs.GetInt("_indexCurrentTask");
             var task = _listTaskSo.ListTasks[_saveIndex]; 
+
             for (int i = 0; i < task.listTasks.Count; i++)
             {
                 _uiTaskData[i]._description.text = task.listTasks[i].DescriptionItem;
@@ -59,10 +51,16 @@ namespace Task
                 _indexCurrentTask += index;
                 PlayerPrefs.SetInt("_indexCurrentTask", _indexCurrentTask);
                 RandomPotion();
-            }
-
-        }
-
+            } 
+        } 
     }
 }
 
+//public void Update()
+//{
+//    if (Input.GetKey(KeyCode.Space))
+//    {
+//        _indexCurrentTask = 0;
+//        PlayerPrefs.SetInt("_indexCurrentTask", _indexCurrentTask);
+//    }
+//}

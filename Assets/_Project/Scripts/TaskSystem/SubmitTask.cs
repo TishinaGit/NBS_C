@@ -11,14 +11,14 @@ namespace Task
     {
         [SerializeField] private TakeTask _takeTask;
         [SerializeField] private ListTaskSo _listTaskSo;
-        [SerializeField] private InventoryPanel _inventoryPanel; 
-        [SerializeField] private List<UITaskData> _uiTasks;
 
-        [SerializeField] private List<InventoryCell> _slotItemData;
-        [SerializeField] private List<InventoryCell> _suitableItem;
+        [SerializeField] private List<UITaskData> _uiTasks; 
 
         private int _maxAmountTask = 3;
         public int InStockInt = 0;
+
+        private InventoryPanel _inventoryPanel;
+        private List<InventoryCell> _slotItemData;
 
         [Inject]
         public void Construct(InventoryPanel InventoryPanel, List<InventoryCell> SlotItemData)
@@ -29,14 +29,13 @@ namespace Task
 
         private void OnEnable()
         {
-            SlotCheckInStock(); 
+            SlotCheckInStock();
         }
 
         private void OnDisable()
-        {
-            RemoveListSuitableItem();
+        { 
             InStockInt = 0;
-        } 
+        }
 
         private void SlotCheckInStock()
         {
@@ -49,33 +48,19 @@ namespace Task
                                                             _countPotionInt <= slot.CurrentData.Count);
                 if (dataCell != null)
                 {
-                    AddDataCellInList(dataCell);
+                    ComparisonItems(dataCell);
                 }
-               
-            } 
+            }
         }
-         
-        private void AddDataCellInList(InventoryCell cell)
-        { 
-            if (cell != null && cell.CurrentData.Type != ItemTypeEnum.None)
-            {
-                _suitableItem.Add(cell);
-                ComparisonItems(cell);
-            } 
-        }
-
+          
         private void ComparisonItems(InventoryCell cell)
         {
             var task = _listTaskSo.ListTasks[_takeTask._indexCurrentTask];
-             
-            if (_suitableItem != null && _suitableItem.Count > 0 && cell != null)
+            for (int i = 0; i < task.listTasks.Count; i++)
             {
-                for (int i = 0; i < _suitableItem.Count; i++)
+                if (task.listTasks[i].ItemTypeEnum == cell.CurrentData.Type)
                 {
-                    if (task.listTasks[i].ItemTypeEnum == cell.CurrentData.Type)
-                    { 
-                        InStockInt++;
-                    }
+                    InStockInt++;
                 }
             } 
         }
@@ -84,35 +69,21 @@ namespace Task
         {
             if (InStockInt == _maxAmountTask)
             {
-                RemoveItems();
-                RemoveListSuitableItem(); 
+                RemoveItems(); 
                 _takeTask.PlusIndexList(1);
-                InStockInt = 0; 
+                InStockInt = 0;
                 SlotCheckInStock();
             }
         }
 
         private void RemoveItems()
         {
-            var task = _listTaskSo.ListTasks[_takeTask._indexCurrentTask];
-            
-            for (int i = 0; i < _suitableItem.Count; i++)
-            {  
-                for (int j = 0; j < task.listTasks[i].Count; j++)
-                {
-                    _inventoryPanel.RemoveItem(_suitableItem[i].CurrentData.Type, task.listTasks[i].Count);
-                }
-                
-            }
-        }
+            var task = _listTaskSo.ListTasks[_takeTask._indexCurrentTask]; 
 
-        private void RemoveListSuitableItem()
-        { 
-            if (_suitableItem != null && _suitableItem.Count > 0)
+            foreach (var item in task.listTasks)
             {
-                _suitableItem.Clear( );
-            } 
-        }
+                _inventoryPanel.RemoveItem(item.ItemTypeEnum, item.Count);
+            }
+        } 
     }
 }
-
