@@ -12,6 +12,8 @@ GameObject:
   - component: {fileID: 4112980350443886096}
   - component: {fileID: 5944159483635927589}
   - component: {fileID: 1585808796118095476}
+  - component: {fileID: 4137759141451770004}
+  - component: {fileID: 2216685378864196933}
   m_Layer: 0
   m_Name: TerminalBluePotion
   m_TagString: Untagged
@@ -168,6 +170,43 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &4137759141451770004
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 839205821345493871}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f07c7507dd9f0c4e983caf2adeb297b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _inventoryPanel: {fileID: 0}
+  _uiWaterScales: {fileID: 0}
+  _bluePotion_0: {fileID: 21300000, guid: b7f77607c82ea4142a2070c0e37e1756, type: 3}
+  _bluePotion_1: {fileID: 21300000, guid: 2d7d9ae02b7159843ac7d5ead0f8b89a, type: 3}
+  _bluePotion_2: {fileID: 21300000, guid: ace8a02646afeda4880fc3cb14cad705, type: 3}
+--- !u!205 &2216685378864196933
+LODGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 839205821345493871}
+  serializedVersion: 2
+  m_LocalReferencePoint: {x: 0, y: 2.0427494, z: 0.08597851}
+  m_Size: 4
+  m_FadeMode: 0
+  m_AnimateCrossFading: 0
+  m_LastLODIsBillboard: 0
+  m_LODs:
+  - screenRelativeHeight: 0.42
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 7295222989800004123}
+    - renderer: {fileID: 22527369190469869}
+  m_Enabled: 1
 --- !u!1001 &2362680405824253430
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -241,6 +280,12 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 31b2b789d4842e744931145b69fd722e, type: 3}
+--- !u!23 &22527369190469869 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 2349161338489298203, guid: 31b2b789d4842e744931145b69fd722e,
+    type: 3}
+  m_PrefabInstance: {fileID: 2362680405824253430}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &2357853191399239675 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 31854722636923405, guid: 31b2b789d4842e744931145b69fd722e,
@@ -349,6 +394,12 @@ BoxCollider:
 --- !u!4 &428362560197636774 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7418973346813031170, guid: 7063407a4c6239442ad2b0a585202181,
+    type: 3}
+  m_PrefabInstance: {fileID: 7135009717713732004}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &7295222989800004123 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 448516225031691199, guid: 7063407a4c6239442ad2b0a585202181,
     type: 3}
   m_PrefabInstance: {fileID: 7135009717713732004}
   m_PrefabAsset: {fileID: 0}

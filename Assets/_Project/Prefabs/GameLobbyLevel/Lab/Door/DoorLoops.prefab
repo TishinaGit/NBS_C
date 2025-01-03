@@ -1230,6 +1230,7 @@ GameObject:
   - component: {fileID: 2217685980254018567}
   - component: {fileID: 5995408067361581864}
   - component: {fileID: 8768717097893555450}
+  - component: {fileID: 9156229601022684186}
   m_Layer: 0
   m_Name: DoorLoops
   m_TagString: Untagged
@@ -1408,6 +1409,33 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!205 &9156229601022684186
+LODGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6264802798114957845}
+  serializedVersion: 2
+  m_LocalReferencePoint: {x: 0, y: 1.727042, z: 0.00000029802322}
+  m_Size: 3.6
+  m_FadeMode: 0
+  m_AnimateCrossFading: 0
+  m_LastLODIsBillboard: 0
+  m_LODs:
+  - screenRelativeHeight: 0.35
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 2978577783996262601}
+    - renderer: {fileID: 1842954522569640367}
+    - renderer: {fileID: 5978917220247321544}
+    - renderer: {fileID: 5912640203282653443}
+    - renderer: {fileID: 1325610824839456555}
+    - renderer: {fileID: 8703503635818763636}
+    - renderer: {fileID: 8087042528976998441}
+    - renderer: {fileID: 6597045663599662089}
+    - renderer: {fileID: 1558520414468440772}
+  m_Enabled: 1
 --- !u!1 &6275796926096415522
 GameObject:
   m_ObjectHideFlags: 0

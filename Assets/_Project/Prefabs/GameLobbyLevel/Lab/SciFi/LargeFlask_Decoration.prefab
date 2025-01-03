@@ -9,6 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3666849951001816744}
+  - component: {fileID: 2360863198776843924}
   m_Layer: 0
   m_Name: LargeFlask_Decoration
   m_TagString: Untagged
@@ -33,6 +34,26 @@ Transform:
   - {fileID: 3982893787022302595}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+--- !u!205 &2360863198776843924
+LODGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 142951848845986521}
+  serializedVersion: 2
+  m_LocalReferencePoint: {x: 0.3499989, y: 1.9661045, z: -0.80998474}
+  m_Size: 4
+  m_FadeMode: 0
+  m_AnimateCrossFading: 0
+  m_LastLODIsBillboard: 0
+  m_LODs:
+  - screenRelativeHeight: 0.34
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 8849260720702359119}
+    - renderer: {fileID: 6075640674844032067}
+  m_Enabled: 1
 --- !u!1001 &1943143525088610005
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -107,6 +128,12 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1943143525088610005}
   m_PrefabAsset: {fileID: 0}
+--- !u!23 &8849260720702359119 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 6933728136190869658, guid: 4f6dea9691e056446855c7bf8d5b20f1,
+    type: 3}
+  m_PrefabInstance: {fileID: 1943143525088610005}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &3823201269212279369
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -178,6 +205,12 @@ PrefabInstance:
 --- !u!4 &3982893787022302595 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 164567755191447498, guid: 5d88c87e4dc7b7c44aff260eb098ada3,
+    type: 3}
+  m_PrefabInstance: {fileID: 3823201269212279369}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &6075640674844032067 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 7016535981226872330, guid: 5d88c87e4dc7b7c44aff260eb098ada3,
     type: 3}
   m_PrefabInstance: {fileID: 3823201269212279369}
   m_PrefabAsset: {fileID: 0}
