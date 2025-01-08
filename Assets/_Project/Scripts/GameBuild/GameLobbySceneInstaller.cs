@@ -6,8 +6,7 @@ using UnityEngine;
 using Zenject;
  
 public class GameLobbySceneInstaller : MonoInstaller
-{
-   
+{ 
     public Transform TransformCamera;
     public GameObject AimTargetForCamera;
     public GameObject PlayerPrefab;
@@ -16,10 +15,11 @@ public class GameLobbySceneInstaller : MonoInstaller
     public CinemachineFreeLook CinemachineFreeLook;
     public List<GameObject> ItemsData;
     public List<InventoryCell> InventoryCells;
-
+     
     public override void InstallBindings()
-    { 
+    {  
         CameraTransform();
+
         CameraAimTarget();
 
         CinemachineFreeLookForCanvas();
@@ -32,9 +32,9 @@ public class GameLobbySceneInstaller : MonoInstaller
 
         ListInventoryCell();
 
-        ListGameObjectsInventoryCells();
+        ListGameObjectsInventoryCells(); 
     }
-     
+  
     public void CameraTransform()
     { 
         Container.Bind<Transform>().FromInstance(TransformCamera).AsSingle();
@@ -72,7 +72,7 @@ public class GameLobbySceneInstaller : MonoInstaller
     public void InventoryPanelGameScene()
     {
         Container.Bind<InventoryPanel>().FromInstance(InventoryPanel).AsSingle();
-    }
+    } 
 }
  
 

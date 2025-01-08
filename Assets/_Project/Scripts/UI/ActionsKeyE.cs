@@ -5,23 +5,23 @@ using Zenject;
 [RequireComponent(typeof(AudioSource))]
 public class ActionsKeyE : MonoBehaviour
 {
-    [SerializeField] private GameObject _uiObject;
-    [SerializeField] private GameObject _uiActionEText;
-    [SerializeField] private AudioSource _audioSource;
+    [SerializeField] private GameObject _uiObject; 
+    [SerializeField] private AudioSource _audioSource; 
+    [SerializeField] private GameObject _canvasActionEText;
 
     private CinemachineFreeLook _cinemachineFreeLook;
 
     [Inject]
     public void Construct(CinemachineFreeLook CinemachineFreeLook)
     {
-        this._cinemachineFreeLook = CinemachineFreeLook; 
+        _cinemachineFreeLook = CinemachineFreeLook;  
     }
 
     private void OnTriggerStay(Collider other)
     {
         if (other != null)
         {
-            _uiActionEText.SetActive(true); 
+            _canvasActionEText.SetActive(true); 
             if (Input.GetKey(KeyCode.E))
             {
                 _audioSource.Play();
@@ -43,7 +43,7 @@ public class ActionsKeyE : MonoBehaviour
             _cinemachineFreeLook.m_YAxis.m_MaxSpeed = 1f;
             Cursor.visible = false;
             Cursor.lockState = CursorLockMode.Locked;
-            _uiActionEText.SetActive(false);
+            _canvasActionEText.SetActive(false);
             _uiObject.SetActive(false);
         }
     }

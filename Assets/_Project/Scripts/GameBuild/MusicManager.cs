@@ -22,6 +22,7 @@ public class MusicManager : MonoBehaviour
 
     public void Awake()
     {
+        DontDestroyOnLoad(this);
         _audioSource = GetComponent<AudioSource>();
 
         StartCoroutine(PlayMusic());
@@ -54,39 +55,41 @@ public class MusicManager : MonoBehaviour
     }
     public void BTM_SliderMusic()
     {
-        _volume = _sliderVolumeMusic.value;
-        Save();
-        ValueMusic();
+        if (_sliderVolumeMusic != null)
+        {
+            _volume = _sliderVolumeMusic.value;
+            Save();
+            ValueMusic();
+        } 
     }
 
     public void BTM_ToggleMusic()
     {
-        if (_toggleMusic.isOn == true)
+        if ( _toggleMusic != null)
         {
-            _volume = 0.1f;
-        }
-        else
-        {
-            _volume = 0;
-        }
-        Save();
-        ValueMusic();
+            if (_toggleMusic.isOn == true)
+            {
+                _volume = 0.1f;
+            }
+            else
+            {
+                _volume = 0;
+            }
+            Save();
+            ValueMusic();
+        } 
     }
 
     private void ValueMusic()
     {
-        _audioSource.volume = _volume;
-        _sliderVolumeMusic.value = _volume;
-        if (_volume == 0) { _toggleMusic.isOn = false; } else { _toggleMusic.isOn = true; }
+        if (_audioSource != null && _sliderVolumeMusic != null)
+        {
+            _audioSource.volume = _volume;
+            _sliderVolumeMusic.value = _volume;
+            if (_volume == 0) { _toggleMusic.isOn = false; } else { _toggleMusic.isOn = true; }
+        } 
     }
 
-    private void Save()
-    {
-        PlayerPrefs.SetFloat("volume", _volume);
-    }
-    private void Load()
-    {
-        _volume = PlayerPrefs.GetFloat("volume", _volume);
-    }
-
+    private void Save() => PlayerPrefs.SetFloat("volume", _volume); 
+    private void Load() => _volume = PlayerPrefs.GetFloat("volume", _volume);
 }
