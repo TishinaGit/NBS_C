@@ -15,7 +15,6 @@ public class CameraParentPlayer : MonoBehaviour
     {
         _cinemachineFreeLook = cinemachineFreeLook;
         _controller = controller;
-          
     }
 
     private void Start()

@@ -3,10 +3,14 @@ using Controller;
 using Inventory;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using Zenject;
  
 public class GameLobbySceneInstaller : MonoInstaller
-{ 
+{
+    public List<Canvas> AllLabCanvas;
+    public Image UIWaterScales;
+    public Canvas CanvasActionEText;
     public Transform TransformCamera;
     public GameObject AimTargetForCamera;
     public GameObject PlayerPrefab;
@@ -17,7 +21,13 @@ public class GameLobbySceneInstaller : MonoInstaller
     public List<InventoryCell> InventoryCells;
      
     public override void InstallBindings()
-    {  
+    {
+        AllLabCanvasObject();
+
+        UIWaterScalesObject();
+
+        CanvasActionETextObject();
+
         CameraTransform();
 
         CameraAimTarget();
@@ -31,19 +41,28 @@ public class GameLobbySceneInstaller : MonoInstaller
         InventoryPanelGameScene();
 
         ListInventoryCell();
-
+        
         ListGameObjectsInventoryCells(); 
     }
-  
+
+    public void AllLabCanvasObject()
+    {
+        Container.Bind<List<Canvas>>().FromInstance(AllLabCanvas).AsSingle();
+    }
+
+    public void UIWaterScalesObject()
+    {
+        Container.Bind<Image>().FromInstance(UIWaterScales).AsSingle();
+    }
+
+    public void CanvasActionETextObject()
+    {
+        Container.Bind<Canvas>().FromInstance(CanvasActionEText).AsSingle();
+    }
+
     public void CameraTransform()
     { 
         Container.Bind<Transform>().FromInstance(TransformCamera).AsSingle();
-    }
-     
-    public void Player()
-    {
-        PlayerController playerController = Container.InstantiatePrefabForComponent<PlayerController>(PlayerPrefab);
-        Container.Bind<PlayerController>().FromInstance(playerController).AsSingle(); 
     }
 
     public void CameraAimTarget()
@@ -52,12 +71,24 @@ public class GameLobbySceneInstaller : MonoInstaller
     }
 
     public void CinemachineFreeLookForCanvas()
-    { 
-        Container.Bind<CinemachineFreeLook>().FromInstance(CinemachineFreeLook).AsSingle(); 
+    {
+        Container.Bind<CinemachineFreeLook>().FromInstance(CinemachineFreeLook).AsSingle();
     }
+
+    public void Player()
+    {
+        PlayerController playerController = Container.InstantiatePrefabForComponent<PlayerController>(PlayerPrefab);
+        Container.Bind<PlayerController>().FromInstance(playerController).AsSingle(); 
+    }
+     
     public void AddSpriteItem()
     {
         Container.Bind<AddSpriteForItem>().FromInstance(AddSpriteForItem).AsSingle(); 
+    }
+
+    public void InventoryPanelGameScene()
+    {
+        Container.Bind<InventoryPanel>().FromInstance(InventoryPanel).AsSingle();
     }
 
     public void ListInventoryCell()
@@ -69,12 +100,4 @@ public class GameLobbySceneInstaller : MonoInstaller
     {
         Container.Bind<List<GameObject>>().FromInstance(ItemsData).AsSingle();
     } 
-    public void InventoryPanelGameScene()
-    {
-        Container.Bind<InventoryPanel>().FromInstance(InventoryPanel).AsSingle();
-    } 
-}
- 
-
-
- 
+}   

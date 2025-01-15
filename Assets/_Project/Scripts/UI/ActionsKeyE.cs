@@ -5,23 +5,26 @@ using Zenject;
 [RequireComponent(typeof(AudioSource))]
 public class ActionsKeyE : MonoBehaviour
 {
-    [SerializeField] private GameObject _uiObject; 
     [SerializeField] private AudioSource _audioSource; 
-    [SerializeField] private GameObject _canvasActionEText;
+    [SerializeField] private CanvasOpenAndClose _canvasOpenAndClose;
+
+    public GameObject _canvasActionEText;
+    public int IndexGameObject;
 
     private CinemachineFreeLook _cinemachineFreeLook;
 
     [Inject]
-    public void Construct(CinemachineFreeLook CinemachineFreeLook)
+    public void Construct(CinemachineFreeLook CinemachineFreeLook, Canvas CanvasActionEText)
     {
-        _cinemachineFreeLook = CinemachineFreeLook;  
+        _cinemachineFreeLook = CinemachineFreeLook;
+        _canvasActionEText = CanvasActionEText.gameObject;
     }
 
     private void OnTriggerStay(Collider other)
     {
         if (other != null)
         {
-            _canvasActionEText.SetActive(true); 
+            _canvasActionEText.SetActive(true);
             if (Input.GetKey(KeyCode.E))
             {
                 _audioSource.Play();
@@ -30,11 +33,11 @@ public class ActionsKeyE : MonoBehaviour
                 Cursor.visible = true;
                 Cursor.lockState = CursorLockMode.Confined;
 
-                _uiObject.SetActive(true);
+                _canvasOpenAndClose.OpenCanvas(IndexGameObject);
             }
         }
     }
-
+     
     private void OnTriggerExit(Collider other)
     {
         if (other != null)
@@ -44,7 +47,8 @@ public class ActionsKeyE : MonoBehaviour
             Cursor.visible = false;
             Cursor.lockState = CursorLockMode.Locked;
             _canvasActionEText.SetActive(false);
-            _uiObject.SetActive(false);
+
+            _canvasOpenAndClose.CloseCanvas(IndexGameObject);
         }
-    }
+    } 
 }

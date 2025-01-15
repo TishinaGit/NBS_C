@@ -1,7 +1,5 @@
-using Inventory;
-using System.Collections;
-using UnityEngine;
-using UnityEngine.Analytics;
+using Inventory; 
+using UnityEngine; 
 using UnityEngine.UI;
 using Zenject;
 
@@ -20,21 +18,28 @@ public class TakeBluePotion : MonoBehaviour
     private float _minusBluePotion_2 = 0.6f;
      
     [Inject]
-    public void Construct(InventoryPanel InventoryPanel)
+    public void Construct(InventoryPanel InventoryPanel, Image UIWaterScales)
     {
         _inventoryPanel = InventoryPanel;
+        _uiWaterScales = UIWaterScales;
     }
 
     private void Awake()
     {
-        _uiWaterScales.fillAmount = 1f;
+        if (_uiWaterScales != null)
+        {
+            _uiWaterScales.fillAmount = 1f;
+        } 
     }
 
     private void Update()
     {
-        if (_uiWaterScales.fillAmount != 1f)
+        if (_uiWaterScales != null)
         {
-             _uiWaterScales.fillAmount += 0.05f * Time.deltaTime; 
+            if (_uiWaterScales.fillAmount != 1f)
+            {
+                _uiWaterScales.fillAmount += 0.05f * Time.deltaTime;
+            }
         }
     }
   
