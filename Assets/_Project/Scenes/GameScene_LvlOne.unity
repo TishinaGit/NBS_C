@@ -1049,11 +1049,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: CreationPortal
       objectReference: {fileID: 0}
-    - target: {fileID: 4462180446073244226, guid: 6f5ad33b2e68a9344b4c5a8ca8f9bcfb,
-        type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 2147483647
-      objectReference: {fileID: 0}
     - target: {fileID: 5569971520996817354, guid: 6f5ad33b2e68a9344b4c5a8ca8f9bcfb,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -6542,7 +6537,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5befc68c19899f14ba2e6d7b62594946, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SceneInstaller: {fileID: 0}
+  SceneInstaller: {fileID: 1180190017}
   LoadingCanvas: {fileID: 2864790093346497070}
   CameraSystem: {fileID: 0}
   r: 0
@@ -9766,12 +9761,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 844d643d3d2f8d946b73e4ced835a135, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _job1:
+  _level:
     m_AssetGUID: aaffd6f37da65524c828511bf7f17406
     m_SubObjectName: 
     m_SubObjectType: 
     m_EditorAssetChanged: 0
-  _job2:
+  _levelDesign:
     m_AssetGUID: a231ba52e820d0a4a94fa8d284ffb63c
     m_SubObjectName: 
     m_SubObjectType: 

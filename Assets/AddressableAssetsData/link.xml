@@ -4,7 +4,6 @@
     <type fullname="CanvasOpenAndClose" preserve="all" />
     <type fullname="OpenTheDoor" preserve="all" />
     <type fullname="PortalLoadGameScene" preserve="all" />
-    <type fullname="TakeBluePotion" preserve="all" />
   </assembly>
   <assembly fullname="Unity.Addressables, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" preserve="all">
     <type fullname="UnityEngine.AddressableAssets.Addressables" preserve="all" />

@@ -8,7 +8,7 @@ public class Delay : MonoBehaviour
     public float r = 0;
     void Update()
     {
-        if (r < 1)
+        if (r < 4)
         {
             r += Time.deltaTime;
         }
