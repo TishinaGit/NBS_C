@@ -1,0 +1,181 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: GameScene_Texture
+  m_EditorClassIdentifier: 
+  m_GroupName: GameScene_Texture
+  m_Data:
+    m_SerializedData: []
+  m_GUID: f08656e9832eabc46a66a0c99dfccef1
+  m_SerializeEntries:
+  - m_GUID: 90d344a6fd489434a950f15d91b9a457
+    m_Address: emission
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - GameScene_Texture
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: af893704af3b9654681002742ca3edf4
+    m_Address: kkk_diffuseOriginal
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - GameScene_Texture
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6c61b16c910cc2e4eb59d8e39654ede2
+    m_Address: kkk_normal
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - GameScene_Texture
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ca3ed6086b51e174ca6fa7ff03319b61
+    m_Address: oooo_diffuseOriginal
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - GameScene_Texture
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1934bd3aad60f45458e8620378944720
+    m_Address: oooo_normal
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - GameScene_Texture
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7fe00e73196d2284498b87af8a4747a2
+    m_Address: rockmeshlownew_PM3D_ROCKAFTERPATTERN_5_Bas
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - GameScene_Texture
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 34784ab5443337540aaa0834da34e243
+    m_Address: rockmeshlownew_PM3D_ROCKAFTERPATTERN_5_Emi
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - GameScene_Texture
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c235bebb08ad52e43a11637ca69c99e3
+    m_Address: rockmeshlownew_PM3D_ROCKAFTERPATTERN_5_Hei
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - GameScene_Texture
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e85ab63633aa7ae48b6ef7489b082d46
+    m_Address: rockmeshlownew_PM3D_ROCKAFTERPATTERN_5_Met
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - GameScene_Texture
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d0d9de465fac96242b15dea9a91a4065
+    m_Address: rockmeshlownew_PM3D_ROCKAFTERPATTERN_5_Nor
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - GameScene_Texture
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d4af29145d95f4e4f9864bdb59be1a84
+    m_Address: tree_mushroom_BaseColor
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - GameScene_Texture
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4b6f2727715321f46abfc533e310517c
+    m_Address: tree_mushroom_EMISSIVE
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - GameScene_Texture
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a5e3d5f83047fff4d9b5be120bd0b029
+    m_Address: tree_mushroom_Normal
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - GameScene_Texture
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6278f9478b4ddec4d95f1a4dc5e06c90
+    m_Address: tree_mushroom_OARME
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - GameScene_Texture
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9cee79cb77086b04cac1f5b1f133d885
+    m_Address: Protal_albedo
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - GameScene_Texture
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8c1aec76bb46a60458d70921b7210aa7
+    m_Address: Protal_emissive
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - GameScene_Texture
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1c67939e8f7144d4aaca899b0ba6bb56
+    m_Address: Protal_metallic
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - GameScene_Texture
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: abf3c87b77e936e4ea6f32421b30b8f2
+    m_Address: Protal_normal
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - GameScene_Texture
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 199a0f7034c7eb846937b775474c2c10
+    m_Address: foliage_01
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - GameScene_Texture
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 22a59139355ba5c4696ee7c175cb2b13
+    m_Address: trunk_01_AlbedoTransparency
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - GameScene_Texture
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: da48184a4a5c81240acbd9a1d29d2c2c
+    m_Address: trunk_01_Normal
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - GameScene_Texture
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7a280c37d4c8a7146a7c18b463b5f5ed
+    m_Address: None_Base_Color
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - GameScene_Texture
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 966c4474540ba454199468b9bed3e70b
+    m_Address: None_Emissive
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - GameScene_Texture
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ffb1b18d2700a9e4b8bd34b80c64a6dd
+    m_Address: None_Metallic
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - GameScene_Texture
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d4a2ae3af1a3a424eaa6e1fb809e5f8d
+    m_Address: None_Mixed_AO
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - GameScene_Texture
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 353f226495091a24b9309992c537f3ad
+    m_Address: None_Normal_OpenGL
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - GameScene_Texture
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: ba675714c89c2624d898e6b7e69d2e68, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 56ac044afbdb7bf44b37f98e682e137b, type: 2}
+    - {fileID: 11400000, guid: 90b22cdac26a95d49a5d1354abd574e1, type: 2}

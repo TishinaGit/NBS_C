@@ -15,7 +15,7 @@ MonoBehaviour:
   m_DefaultGroup: c17555086649c844d9580ee34a2ab942
   m_currentHash:
     serializedVersion: 2
-    Hash: e74de45a30827237c915a114e171779b
+    Hash: cb8d82d10e7fbca985370efa34090e12
   m_OptimizeCatalogSize: 0
   m_BuildRemoteCatalog: 1
   m_BundleLocalCatalog: 0
@@ -38,7 +38,7 @@ MonoBehaviour:
     m_Id: 118b9dd9202942c48a8ccde3e5affcbe
   m_RemoteCatalogLoadPath:
     m_Id: 655632e72f51c1742b4cbb39ab8813c1
-  m_ContentStateBuildPathProfileVariableName: <default settings path>
+  m_ContentStateBuildPathProfileVariableName: Remote.LoadPath
   m_CustomContentStateBuildPath: 
   m_ContentStateBuildPath: 
   m_BuildAddressablesWithPlayerBuild: 0
@@ -46,7 +46,16 @@ MonoBehaviour:
   m_GroupAssets:
   - {fileID: 11400000, guid: 9e3c5123d37a1754b9c9270364d15678, type: 2}
   - {fileID: 11400000, guid: 61b3009c4f9542747bc9eccc74a3b54e, type: 2}
-  - {fileID: 11400000, guid: 55b5b8ebe66419d40b716c0fbcf2853b, type: 2}
+  - {fileID: 11400000, guid: ace94bd70a91dd8448742d40cad124c0, type: 2}
+  - {fileID: 11400000, guid: f654b6ce1d78cd14399a9b3590a9a4a6, type: 2}
+  - {fileID: 11400000, guid: e5dd4fbdfbc3b7e4eaaaf71acd2b62a5, type: 2}
+  - {fileID: 11400000, guid: 0468dffcd84ab68469850c20bfa15b06, type: 2}
+  - {fileID: 11400000, guid: ba5a75d21cd7ffb45b319d8d97fb7d55, type: 2}
+  - {fileID: 11400000, guid: c18c3422cdef74648a64984a900a78fa, type: 2}
+  - {fileID: 11400000, guid: 7a5da8ce30449d44aa5406feecad4081, type: 2}
+  - {fileID: 11400000, guid: f9ff821416c14b7409b79ac74a2fc0cb, type: 2}
+  - {fileID: 11400000, guid: dd5fd3fc0f9d15d44958466e234ea39c, type: 2}
+  - {fileID: 11400000, guid: 74fececaa5e22b94f8d320deb1ba7313, type: 2}
   m_BuildSettings:
     m_CompileScriptsInVirtualMode: 0
     m_CleanupStreamingAssetsAfterBuilds: 1
@@ -102,6 +111,18 @@ MonoBehaviour:
   m_LabelTable:
     m_LabelNames:
     - default
+    - GameLobbyScene_Texture
+    - GameLobbyScene_Material
+    - GameLobbyScene_Mesh
+    - GameLobbyScene_SO
+    - Shader
+    - MainMenuSprite
+    - GameLobbySceneSprite
+    - GameLobbyScene_Gameobject
+    - GameScene_Gameobject
+    - GameScene_Mesh
+    - GameScene_Material
+    - GameScene_Texture
   m_SchemaTemplates: []
   m_GroupTemplateObjects:
   - {fileID: 11400000, guid: 82248eabb4ba6ad47bc60043767386f0, type: 2}

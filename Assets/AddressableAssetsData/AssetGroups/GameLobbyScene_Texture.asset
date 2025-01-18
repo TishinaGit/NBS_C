@@ -1,0 +1,973 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: GameLobbyScene_Texture
+  m_EditorClassIdentifier: 
+  m_GroupName: GameLobbyScene_Texture
+  m_Data:
+    m_SerializedData: []
+  m_GUID: cffc93c5b06b9ad4d835626b14c29006
+  m_SerializeEntries:
+  - m_GUID: 4cc843d37e5ff354f8a84118dd8aaf76
+    m_Address: Buch_albedo
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - GameLobbyScene_Texture
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 437252ee626c01740b8fd84944d36ec3
+    m_Address: Buch_AO
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - GameLobbyScene_Texture
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3f49a027888ae0742b6d22b56eb052ab
+    m_Address: Buch_emissive
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - GameLobbyScene_Texture
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 688c1b2964654634f91b2f991aa635f0
+    m_Address: Buch_metallic
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - GameLobbyScene_Texture
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bc9ad87c0b7349841b8c7b9125f4dfad
+    m_Address: 1_CV
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - GameLobbyScene_Texture
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2c5fd66bc21e82f4d877b2eeac5e9699
+    m_Address: MAT_Scifi_Door_5_Base_Color
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - GameLobbyScene_Texture
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e446fd5dfc97cc14bb26a0ec26aa8c54
+    m_Address: MAT_Scifi_Door_5_Emissive
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - GameLobbyScene_Texture
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f9ec6b72f74c8404c862d7b38d74398b
+    m_Address: MAT_Scifi_Door_5_Metallic
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - GameLobbyScene_Texture
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 92a7da401524c8d48a4db1ba96a39ee6
+    m_Address: MAT_Scifi_Door_5_Mixed_AO
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - GameLobbyScene_Texture
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ac74813d257fb084cb807b77a88c7b6f
+    m_Address: MAT_Scifi_Door_5_Normal_DirectX
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - GameLobbyScene_Texture
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4abefce2ec0b4714494731c21e4d512c
+    m_Address: Heart_02 - Default_BaseColor
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - GameLobbyScene_Texture
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f4eacf6690533164183deb3a879667bf
+    m_Address: Heart_02 - Default_Height
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - GameLobbyScene_Texture
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4a25ba309683ca248aea8673236c9463
+    m_Address: Heart_02 - Default_Metallic
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - GameLobbyScene_Texture
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e586d35becebabb47b4d7bcf8f043bca
+    m_Address: Heart_02 - Default_Normal
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - GameLobbyScene_Texture
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 98271a81bd9e79846adc66974c5d1fe3
+    m_Address: LabMachine_BaseColor
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - GameLobbyScene_Texture
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: da41b29f449460648b2eedf6db839968
+    m_Address: Altar_albedo_V2.tga
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - GameLobbyScene_Texture
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7da36c7176984c0448b72e5709b00bb7
+    m_Address: Altar_Curvature
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - GameLobbyScene_Texture
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4031667db81e6cb498be7c690e0e176c
+    m_Address: Altar_emissive.tga
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - GameLobbyScene_Texture
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 337e2669d111b5945bdb73fa978fad8a
+    m_Address: Altar_gloss.tga
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - GameLobbyScene_Texture
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 593df79b689621e42b4293a372aaf5c9
+    m_Address: Altar_metallic.tga
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - GameLobbyScene_Texture
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e2f5ced98b318274c8c30183791f9819
+    m_Address: Altar_normal.tga
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - GameLobbyScene_Texture
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6d4a622bf9997dc4e85283f0653c1892
+    m_Address: DefaultMaterial_Base_Color
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - GameLobbyScene_Texture
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c61533f6b17414a46927d75c066c1ab1
+    m_Address: DefaultMaterial_Metallic
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - GameLobbyScene_Texture
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 75d56120029eb3247b1f646bd0be1bcd
+    m_Address: DefaultMaterial_Mixed_AO
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - GameLobbyScene_Texture
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 81e086f0746398c49b3f1dc5abfe2797
+    m_Address: DefaultMaterial_Normal_DirectX
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - GameLobbyScene_Texture
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 222da12994d02284a9fdf852fbf4e7ba
+    m_Address: DefaultMaterial_Roughness
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - GameLobbyScene_Texture
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d4ec9bdfa686a2e4882196f7ec16b749
+    m_Address: pillar_base_color.tga
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - GameLobbyScene_Texture
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 15c709910fa136d4aae5bfd1ac4c0baa
+    m_Address: pillar_emmisive.tga
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - GameLobbyScene_Texture
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6ebb0dff0a6991d49bc89023223c17a9
+    m_Address: pillar_normal_map.tga
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - GameLobbyScene_Texture
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8213afc9ecfe82d44a28e43d30778505
+    m_Address: pillar_specular.tga
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - GameLobbyScene_Texture
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1f0eb0c860947534db8c0c5eb9764418
+    m_Address: textures_base_color.tga
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - GameLobbyScene_Texture
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b090f87da6f69d24eb2d9636516a8d08
+    m_Address: textures_emmisive.tga
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - GameLobbyScene_Texture
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 30c604bcaecd7cd44b93b905ed942e02
+    m_Address: textures_normal_map.tga
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - GameLobbyScene_Texture
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b7574bee3ee626345961f607fd8e9189
+    m_Address: textures_roughness.tga
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - GameLobbyScene_Texture
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9ed78bdcec792a6419b8be3b83140d67
+    m_Address: textures_specular.tga
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - GameLobbyScene_Texture
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ab68bdda8781ce6438940f5a50358ebf
+    m_Address: internal_ground_ao_texture
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - GameLobbyScene_Texture
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 670d331d6f54124469c7da5a36f0b149
+    m_Address: outer_box_BaseColor
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - GameLobbyScene_Texture
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1fe951a22a9a74b45996e477d171c47c
+    m_Address: outer_box_Normal
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - GameLobbyScene_Texture
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 293ce287f16fd2641b6bd82c4594f670
+    m_Address: portal_shell_BaseColor
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - GameLobbyScene_Texture
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3dcf8d81675d9124588d7f4dd0a8906a
+    m_Address: portal_shell_Normal
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - GameLobbyScene_Texture
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3a2f734a70b26c14dba331779ab58324
+    m_Address: walkway_BaseColor
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - GameLobbyScene_Texture
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 52360a409bd097049a0cfa9377d87970
+    m_Address: walkway_Normal
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - GameLobbyScene_Texture
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: eb861e91cec07b546a5bea8f6b4b3df0
+    m_Address: wuze85y
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - GameLobbyScene_Texture
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ab4e296bfaf9f8e4bb51f0a6d13d0c8b
+    m_Address: wuze85y2
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - GameLobbyScene_Texture
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4b8970bd3489e014d903d80b96a1be62
+    m_Address: metal_crate_lowbake_AO
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - GameLobbyScene_Texture
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f2086331699aa764f87fab7adbbbf68d
+    m_Address: metal_crate_lowbake_BaseColor
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - GameLobbyScene_Texture
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3a07efe470fec5242a08043de4776f22
+    m_Address: metal_crate_lowbake_Metallic
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - GameLobbyScene_Texture
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5cc26e5b115eb144194af4fb745044b3
+    m_Address: metal_crate_lowbake_Normal
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - GameLobbyScene_Texture
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 115de000336353d4f822bcb224d8c6a3
+    m_Address: stairs_a
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - GameLobbyScene_Texture
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3255e8d68bec69245a29429b6b4ef78f
+    m_Address: stairs_n
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - GameLobbyScene_Texture
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b1d10b3c41983df4088e3f1500765ae6
+    m_Address: walkway_a
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - GameLobbyScene_Texture
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c42df488497626e43ace6a26270b0c56
+    m_Address: walkway_n
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - GameLobbyScene_Texture
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7a37f125ecd5f244bb8c85075016606a
+    m_Address: ceiling_tiles_a
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - GameLobbyScene_Texture
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7bfc418e1a246e44ebe858b7c0360d03
+    m_Address: ceiling_tiles_n
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - GameLobbyScene_Texture
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fbe5e58554dd2a247bfd39321c4abfbb
+    m_Address: floor_tile_a
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - GameLobbyScene_Texture
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1ff204db5ae1e1f4cb7dc3aa73275e5c
+    m_Address: floor_tile_n
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - GameLobbyScene_Texture
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b6df1a2e752aedc488cd14ff782e2d72
+    m_Address: Wall Alpha a
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - GameLobbyScene_Texture
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1153af84499b94845918edffb27b71fa
+    m_Address: walls_n
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - GameLobbyScene_Texture
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 96747c193717fa74cbc6dfd9a64bc185
+    m_Address: barrel_a
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - GameLobbyScene_Texture
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5541caacf9b1603498d5df299b5b9254
+    m_Address: barrel_n
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - GameLobbyScene_Texture
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: dd620208d7a733241a70fafa5ae00956
+    m_Address: ducts_pillars_a
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - GameLobbyScene_Texture
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f6ec68a6be89a9841bf20be75db234d6
+    m_Address: ducts_pillars_n
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - GameLobbyScene_Texture
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9af577b18d640264da31b9ab91f1ab30
+    m_Address: lab_pipes_rura_przod_BaseColor
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - GameLobbyScene_Texture
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c0518bfce4c4af74181da7aa662fab9e
+    m_Address: lab_pipes_rura_przod_Emissive
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - GameLobbyScene_Texture
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 35ea7479e4981eb48b5a4eaca6d4581c
+    m_Address: lab_pipes_rura_przod_Metallic
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - GameLobbyScene_Texture
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8d31fae13659229499fe7837862bde6e
+    m_Address: lab_pipes_rura_przod_Normal
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - GameLobbyScene_Texture
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b7b7434f4570c154f87d197d50b96749
+    m_Address: lab_pipes_rura_tylna_BaseColor
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - GameLobbyScene_Texture
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8a28ecee4b24d1d43bf5ba2f4b34809a
+    m_Address: lab_pipes_rura_tylna_Emissive
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - GameLobbyScene_Texture
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 25a852f87b585834da3799465c6bf226
+    m_Address: lab_pipes_rura_tylna_Metallic
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - GameLobbyScene_Texture
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e613515ae71fbf443b8bc21a0c35afa0
+    m_Address: lab_pipes_rura_tylna_Normal
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - GameLobbyScene_Texture
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 112308cafb598b24281f4da6e37eb343
+    m_Address: szafka2_UVW_szafka_BaseColor.1001
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - GameLobbyScene_Texture
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c9da1b1674abdec47a6b868ac1310e8b
+    m_Address: szafka2_UVW_szafka_Emissive.1001
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - GameLobbyScene_Texture
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 755c871f7aa068b4d8dc7a07f918de3b
+    m_Address: szafka2_UVW_szafka_Metallic.1001
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - GameLobbyScene_Texture
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 10fd113698fb2ad4b8dd5902e6806b53
+    m_Address: szafka2_UVW_szafka_Normal.1001
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - GameLobbyScene_Texture
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4a8e0b6a54fa388439dd2e7d6f79ade1
+    m_Address: szafka2_UVW_szafka_szyba_BaseColor.1001
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - GameLobbyScene_Texture
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 035f6f4effb2b6e4084cfe352ca9ee39
+    m_Address: szafka2_UVW_szafka_szyba_Emissive.1001
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - GameLobbyScene_Texture
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 74ac04a3b85dd2c478cba1a6fa8a7212
+    m_Address: szafka2_UVW_szafka_szyba_Metallic.1001
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - GameLobbyScene_Texture
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: aa851c05b76b6204796f1445555d9f9d
+    m_Address: szafka2_UVW_szafka_szyba_Normal.1001
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - GameLobbyScene_Texture
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fb88bf01c8f22d1438b1da41c3bf0f3b
+    m_Address: rura_glowna_UVW_rura_glowna_podloga_BaseCo
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - GameLobbyScene_Texture
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3170ef79d98c5e246bcdcee489805aab
+    m_Address: rura_glowna_UVW_rura_glowna_podloga_Emissi
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - GameLobbyScene_Texture
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6c9e859698cbfee40b4a225ca9eba639
+    m_Address: rura_glowna_UVW_rura_glowna_podloga_Metall
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - GameLobbyScene_Texture
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 341f496651c67dc4b989071376cd89fd
+    m_Address: rura_glowna_UVW_rura_glowna_podloga_Normal
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - GameLobbyScene_Texture
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c48ee4fdf01fbc8468a00ed9999edaf8
+    m_Address: szafka_UVW_szafka_szybka_BaseColor.1001
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - GameLobbyScene_Texture
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: af67426a610a2c546bf27108ef6e9e8c
+    m_Address: szafka_UVW_szafka_szybka_Emissive.1001
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - GameLobbyScene_Texture
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 583e4350c09d12d46aa791f56b48b7a1
+    m_Address: szafka_UVW_szafka_szybka_Normal.1001
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - GameLobbyScene_Texture
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b0c4a96bf818f2f4696a1b925cdbd1a7
+    m_Address: Digital_Microscope_albedo
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - GameLobbyScene_Texture
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d12c84cad2cba2d46aef1f75b7954dd9
+    m_Address: Digital_Microscope_AO
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - GameLobbyScene_Texture
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7a657500cea8d55499e2f5d540736cd3
+    m_Address: Digital_Microscope_metallic
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - GameLobbyScene_Texture
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 57a9b238b93c4a54a950a60378a60d2c
+    m_Address: Digital_Microscope_normal
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - GameLobbyScene_Texture
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 986145cfcac7b0849ae46bbdff06db4a
+    m_Address: extinguisher_a
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - GameLobbyScene_Texture
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 34c2ef1ae4e13fd4f909be4cb80e2641
+    m_Address: extinguisher_n
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - GameLobbyScene_Texture
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d9ae4d3b69f59704c9887f5ceb6ff8b6
+    m_Address: garbage_bin_a
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - GameLobbyScene_Texture
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7ba2dae2f9a53c84ca1e5b2fbcfdfdd9
+    m_Address: garbage_bin_n
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - GameLobbyScene_Texture
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 07d028a3c7eb59a4096db36b25b60ab4
+    m_Address: light_bulb_a
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - GameLobbyScene_Texture
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5aa42ca73b98db941ad37f3f7501d32d
+    m_Address: security_cam_a
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - GameLobbyScene_Texture
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 21e1d31bf7981fa459b4cdbb49efe5e9
+    m_Address: security_cam_n
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - GameLobbyScene_Texture
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d323d35d0f47e0444afc48f7d9866119
+    m_Address: structure_props_a
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - GameLobbyScene_Texture
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a6f7cf1bc70b23542ad05910e18b046f
+    m_Address: structure_props_e
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - GameLobbyScene_Texture
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 820c36c5a709ed74fb866a1c393bbb8c
+    m_Address: structure_props_n
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - GameLobbyScene_Texture
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5c1fd87ceca3aac4faa8f55e23b4e0ae
+    m_Address: wall_light_a
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - GameLobbyScene_Texture
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e5c035cbc7f7b954597a86f8f942fd6a
+    m_Address: wall_light_n
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - GameLobbyScene_Texture
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8efd3b81cda3ae94fb1c61d37332155f
+    m_Address: panel_sterowania_Panel_sterowania_BaseColo
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - GameLobbyScene_Texture
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 83fa1c98a97d9c340bfaff711812d545
+    m_Address: panel_sterowania_Panel_sterowania_Emissive
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - GameLobbyScene_Texture
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1939cf7262b936b43975393e87431877
+    m_Address: panel_sterowania_Panel_sterowania_Height.1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - GameLobbyScene_Texture
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 543dc01e35bb2414cb594f519d567ccb
+    m_Address: panel_sterowania_Panel_sterowania_Metallic
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - GameLobbyScene_Texture
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1dda84f8a92bba44a9c0980d205bda51
+    m_Address: panel_sterowania_Panel_sterowania_Normal.1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - GameLobbyScene_Texture
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 87999059802e40d47985b1515b2aa56f
+    m_Address: rura_glowna_UVW_rura_glowna_szybka_BaseCol
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - GameLobbyScene_Texture
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 969c2b8584bf64646a3419d26bf1d196
+    m_Address: rura_glowna_UVW_rura_glowna_szybka_Emissiv
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - GameLobbyScene_Texture
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cb7085a3e4031a948894d19206f16815
+    m_Address: rura_glowna_UVW_rura_glowna_szybka_Metalli
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - GameLobbyScene_Texture
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8f54ef3ef8397e04296e93dd2b8139cb
+    m_Address: rura_glowna_UVW_rura_glowna_szybka_Normal.
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - GameLobbyScene_Texture
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 764f4d0711791c740ac9cbbd93a54ac1
+    m_Address: sciany_UV_SZYBKA_BaseColor.1001
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - GameLobbyScene_Texture
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 856bb5172c9c7824f9abb0058973e438
+    m_Address: sciany_UV_SZYBKA_Metallic.1001
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - GameLobbyScene_Texture
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c18bf9e772010814cb30c53c80e63a2f
+    m_Address: sciany_UV_SZYBKA_Normal.1001
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - GameLobbyScene_Texture
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: aac34609718e4374b8ccc541a7d6d837
+    m_Address: "sloiki_duz_s\u0142oik_szybka_BaseColor.1001"
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - GameLobbyScene_Texture
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2c7738fb39437974e8f8ceea50dd6b89
+    m_Address: "sloiki_duz_s\u0142oik_szybka_Emissive.1001"
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - GameLobbyScene_Texture
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: eec913fe55b57ce468d94e95e0fd15ca
+    m_Address: "sloiki_duz_s\u0142oik_szybka_Metallic.1001"
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - GameLobbyScene_Texture
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: edac4af3a8b39e9479687505c23cab6b
+    m_Address: "sloiki_duz_s\u0142oik_szybka_Normal.1001"
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - GameLobbyScene_Texture
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 28e19a2a218cb3746850503fb65da0fe
+    m_Address: Shelf_ao
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - GameLobbyScene_Texture
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8172d3b082ff6a14ea0dd4bee4857d3c
+    m_Address: Shelf_low_Material_Normal
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - GameLobbyScene_Texture
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d88b788c2195389499366158a6989257
+    m_Address: Shelf_low_Material_Roughness
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - GameLobbyScene_Texture
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 427ec5a6ab7871a48b17018e7804d523
+    m_Address: "sloiki_duzy_s\u0142oik_BaseColor.1001"
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - GameLobbyScene_Texture
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 309180c08ad97314e97d0c920775f68d
+    m_Address: "sloiki_duzy_s\u0142oik_Emissive.1001"
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - GameLobbyScene_Texture
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: dd037077fb3e90240a196b5d493b2ef4
+    m_Address: "sloiki_duzy_s\u0142oik_Metallic.1001"
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - GameLobbyScene_Texture
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 94ac7e2700e361043920c9125c52f941
+    m_Address: "sloiki_duzy_s\u0142oik_Normal.1001"
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - GameLobbyScene_Texture
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 971e0807dda04694f9f8c69b4e2f80c8
+    m_Address: "sloiki_s\u0142oik_ma\u0142y_BaseColor.1001"
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - GameLobbyScene_Texture
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2553730116f3dcb45a8a4dc4f1536ae6
+    m_Address: "sloiki_s\u0142oik_ma\u0142y_Emissive.1001"
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - GameLobbyScene_Texture
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7428fe454e3ae9f41b0af48a413be5ec
+    m_Address: "sloiki_s\u0142oik_ma\u0142y_Metallic.1001"
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - GameLobbyScene_Texture
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f015cac1a539263459697a8424c75c56
+    m_Address: "sloiki_s\u0142oik_ma\u0142y_Normal.1001"
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - GameLobbyScene_Texture
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5892f290a6e9faa49b7605bc58e8789b
+    m_Address: "sloiki_s\u0142oik_ma\u0142y_szybka_BaseColor.1001"
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - GameLobbyScene_Texture
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d67ec9a86bd4ecf4092711efab0fd9c4
+    m_Address: "sloiki_s\u0142oik_ma\u0142y_szybka_Emissive.1001"
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - GameLobbyScene_Texture
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: baabd41b7396b9a4a8093d7896311500
+    m_Address: "sloiki_s\u0142oik_ma\u0142y_szybka_Metallic.1001"
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - GameLobbyScene_Texture
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7e557687b3130b349b5b60dbf7b75327
+    m_Address: "sloiki_s\u0142oik_ma\u0142y_szybka_Normal.1001"
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - GameLobbyScene_Texture
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 67080f5d28889af4ca60ba20aa873e80
+    m_Address: stolik_scena_stolik_BaseColor.1001
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - GameLobbyScene_Texture
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 17c2545bacfd3e846bd231c3af2061bc
+    m_Address: stolik_scena_stolik_Emissive.1001
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - GameLobbyScene_Texture
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 31f9f1d9a4d3c8b4482129e70b24cc3c
+    m_Address: stolik_scena_stolik_Metallic.1001
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - GameLobbyScene_Texture
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: af085969aeeb28145a040c0d56a1a26c
+    m_Address: stolik_scena_stolik_Normal.1001
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - GameLobbyScene_Texture
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2844a8533b5f0a74484b565c2dc4aeb1
+    m_Address: stolik_scena_stolik_szybka_BaseColor.1001
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - GameLobbyScene_Texture
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: eee73df77aa6d2243aa049aa4fadfada
+    m_Address: stolik_scena_stolik_szybka_Emissive.1001
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - GameLobbyScene_Texture
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: feb55fb3d92153143937cc4cf34687c5
+    m_Address: stolik_scena_stolik_szybka_Metallic.1001
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - GameLobbyScene_Texture
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bc83f965afba84047a7e9035b03a1977
+    m_Address: stolik_scena_stolik_szybka_Normal.1001
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - GameLobbyScene_Texture
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e39a7a709bf0c8c4daa8240d6d58f1dd
+    m_Address: panel3_sciana3_panel3_BaseColor.1001
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - GameLobbyScene_Texture
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3498ba71b1dd71743a6e7db2e192ea92
+    m_Address: panel3_sciana3_panel3_Metallic.1001
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - GameLobbyScene_Texture
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c5ee4ca520407ad4680ec1ba3df32486
+    m_Address: panel3_sciana3_panel3_Normal.1001
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - GameLobbyScene_Texture
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: dd62b07a8f573ad4b9728358306194e5
+    m_Address: panel_sterowania_Panel_sciana_BaseColor.10
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - GameLobbyScene_Texture
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7c0e61a8d8bfd014baea40246e5ea478
+    m_Address: panel_sterowania_Panel_sciana_Emissive.100
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - GameLobbyScene_Texture
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: afc9dcf886437494c96237bcdfdb7c8a
+    m_Address: panel_sterowania_Panel_sciana_Metallic.100
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - GameLobbyScene_Texture
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e309113c53cb8c646a1c89ecd739f3cb
+    m_Address: panel_sterowania_Panel_sciana_Normal.1001
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - GameLobbyScene_Texture
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 144ce4a5ef82b2c44b199ec0c6facca8
+    m_Address: szafka_UVW_szafka_body_BaseColor.1001
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - GameLobbyScene_Texture
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 974bf575860c3fd478eafd6f33c5bca6
+    m_Address: szafka_UVW_szafka_body_Emissive.1001
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - GameLobbyScene_Texture
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 18c8a1110ce1b2b47be7bacd07541288
+    m_Address: szafka_UVW_szafka_body_Metallic.1001
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - GameLobbyScene_Texture
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 559d51b707a0de74ea934ef4cbee7c8b
+    m_Address: szafka_UVW_szafka_body_Normal.1001
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - GameLobbyScene_Texture
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a04221d57efdbe44099ce837b8996697
+    m_Address: bay_door_n
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - GameLobbyScene_Texture
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0803de6fb69eb4640bf630942f58b5fc
+    m_Address: bay_door_a
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - GameLobbyScene_Texture
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 206d9affd43fc0040b238f5d9543f82f
+    m_Address: fan_a
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - GameLobbyScene_Texture
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3e5b45c25b7eed74880f8f97805917af
+    m_Address: fan_n
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - GameLobbyScene_Texture
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2cd89b625b97b4e4289e0db0e2846857
+    m_Address: structure_misc_a
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - GameLobbyScene_Texture
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4c163bffce96d804aada56a27e79a63f
+    m_Address: structure_misc_n
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - GameLobbyScene_Texture
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b23b96e58405f5a47a3552f22652ba7b
+    m_Address: walls_a
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - GameLobbyScene_Texture
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: ba675714c89c2624d898e6b7e69d2e68, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: a661b08f02d087043b3d594a80bff6e2, type: 2}
+    - {fileID: 11400000, guid: 4abc130317db6574fafb0d9e097b5e3d, type: 2}

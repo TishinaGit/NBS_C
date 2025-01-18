@@ -1,9 +1,30 @@
 <linker>
   <assembly fullname="Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="ActionsKeyE" preserve="all" />
+    <type fullname="AddItem" preserve="all" />
+    <type fullname="AIDrone" preserve="all" />
     <type fullname="CanvasOpenAndClose" preserve="all" />
+    <type fullname="CubeArea" preserve="all" />
+    <type fullname="DissolveEnemy" preserve="all" />
+    <type fullname="Drone" preserve="all" />
+    <type fullname="EntitySpawner" preserve="all" />
+    <type fullname="FollowThePlayer" preserve="all" />
+    <type fullname="Inventory.ItemConfigList" preserve="all" />
+    <type fullname="Inventory.ItemUIList" preserve="all" />
     <type fullname="OpenTheDoor" preserve="all" />
     <type fullname="PortalLoadGameScene" preserve="all" />
+    <type fullname="Projectile" preserve="all" />
+    <type fullname="ReceiptsSystem.ItemCraftList" preserve="all" />
+    <type fullname="Task.ListTaskSo" preserve="all" />
+    <type fullname="UIPlayerHealthBar" preserve="all" />
+    <type fullname="Weapon" preserve="all" />
+    <type fullname="WeaponProperties" preserve="all" />
+    <type fullname="Inventory.ItemConfig" preserve="nothing" serialized="true" />
+    <type fullname="Inventory.ItemSpriteData" preserve="nothing" serialized="true" />
+    <type fullname="ReceiptsSystem.ItemCraft" preserve="nothing" serialized="true" />
+    <type fullname="ReceiptsSystem.MaterialsForCraft" preserve="nothing" serialized="true" />
+    <type fullname="Task.ItemTaskConfig" preserve="nothing" serialized="true" />
+    <type fullname="Task.ListTask" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="Unity.Addressables, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" preserve="all">
     <type fullname="UnityEngine.AddressableAssets.Addressables" preserve="all" />
@@ -43,14 +64,32 @@
     <type fullname="UnityEngine.MeshFilter" preserve="all" />
     <type fullname="UnityEngine.MeshRenderer" preserve="all" />
     <type fullname="UnityEngine.Object" preserve="all" />
+    <type fullname="UnityEngine.RectTransform" preserve="all" />
     <type fullname="UnityEngine.Shader" preserve="all" />
     <type fullname="UnityEngine.SkinnedMeshRenderer" preserve="all" />
+    <type fullname="UnityEngine.Sprite" preserve="all" />
     <type fullname="UnityEngine.Texture2D" preserve="all" />
+    <type fullname="UnityEngine.TrailRenderer" preserve="all" />
     <type fullname="UnityEngine.Transform" preserve="all" />
+    <type fullname="UnityEngine.Events.ArgumentCache" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.Events.PersistentCallGroup" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.Events.PersistentListenerMode" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.Events.UnityEvent" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="UnityEngine.PhysicsModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.BoxCollider" preserve="all" />
+    <type fullname="UnityEngine.CapsuleCollider" preserve="all" />
     <type fullname="UnityEngine.MeshCollider" preserve="all" />
     <type fullname="UnityEngine.Rigidbody" preserve="all" />
+    <type fullname="UnityEngine.SphereCollider" preserve="all" />
+  </assembly>
+  <assembly fullname="UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.UI.CanvasScaler" preserve="all" />
+    <type fullname="UnityEngine.UI.Image" preserve="all" />
+    <type fullname="UnityEngine.UI.MaskableGraphic/CullStateChangedEvent" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="UnityEngine.UIModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.Canvas" preserve="all" />
+    <type fullname="UnityEngine.CanvasRenderer" preserve="all" />
   </assembly>
 </linker>

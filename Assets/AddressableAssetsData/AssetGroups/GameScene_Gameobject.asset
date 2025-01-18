@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: GameScene_Gameobject
+  m_EditorClassIdentifier: 
+  m_GroupName: GameScene_Gameobject
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 3233b5a4429809b4b84fb7447a07d06c
+  m_SerializeEntries:
+  - m_GUID: dcb37be7d00dd3548958d75563ed9379
+    m_Address: GameObject
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - GameScene_Gameobject
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d2840ec7a85158849a94756ca2c96777
+    m_Address: SpawnEnemy
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - GameScene_Gameobject
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7a1b2f2a8fb546946b9987bd4d68351e
+    m_Address: Cylinder
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - GameScene_Gameobject
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f6d93df0736431744a246e1d328e7a1e
+    m_Address: Bullet
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - GameScene_Gameobject
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: ba675714c89c2624d898e6b7e69d2e68, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 1c1e04dc6e690db4c9e491a25ae728fc, type: 2}
+    - {fileID: 11400000, guid: 12e754f3c7032f647bb5adbd511f5df2, type: 2}

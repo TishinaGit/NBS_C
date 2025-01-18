@@ -1,0 +1,91 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: GameScene_Mesh
+  m_EditorClassIdentifier: 
+  m_GroupName: GameScene_Mesh
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 41c13463388dfec4db6b740b8d545acb
+  m_SerializeEntries:
+  - m_GUID: 7b3b5f5f45bce074790569c27748628b
+    m_Address: MonsterFire
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - GameScene_Mesh
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b9b20435d69a68f4eba09b73a6bb5a44
+    m_Address: MonsterFire
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - GameScene_Mesh
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: abd4ac9abb9214847b0c2134c7ac7ec3
+    m_Address: BigBush
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - GameScene_Mesh
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 24b5d924b6f158c4fb8191c46ccc80e4
+    m_Address: Bush
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - GameScene_Mesh
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b6a853fb6b3a6e04f8447af19063e8b8
+    m_Address: MushroomTree
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - GameScene_Mesh
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e716ab79215c7dd4fb29e3efa6fa9bd4
+    m_Address: 600Verts-bush-upl-repacked-medText
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - GameScene_Mesh
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f78699e1a4617194189baa8210d19974
+    m_Address: wallBush-01-terrainWallBush
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - GameScene_Mesh
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 432ab779d461c7549bd6b970fcc7e78e
+    m_Address: rockmeshlownew
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - GameScene_Mesh
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e1301d01348f9704983fba3604124546
+    m_Address: SM_Mushroom_Tree
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - GameScene_Mesh
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: efde1c7ad78a79347b1c4e3891d14fbb
+    m_Address: untitled
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - GameScene_Mesh
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 006fb49c547b45043b6037559e90beb9
+    m_Address: Tree
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - GameScene_Mesh
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: ba675714c89c2624d898e6b7e69d2e68, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 23ab67a390b0a8e47a9c6c9ef25b7768, type: 2}
+    - {fileID: 11400000, guid: 010d5a6b67875d144bb8fa915d5078b2, type: 2}

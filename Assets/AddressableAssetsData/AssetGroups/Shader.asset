@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Shader
+  m_EditorClassIdentifier: 
+  m_GroupName: Shader
+  m_Data:
+    m_SerializedData: []
+  m_GUID: f9e047ea2f4cbb84cad3303b219b0d07
+  m_SerializeEntries:
+  - m_GUID: a047f7cae8095c94cb8ed5d28e8d153a
+    m_Address: Dissolve
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Shader
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cd865f8d72d3e564f84d3d9485650a4b
+    m_Address: Dissolve 1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Shader
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6c3475df29224de42b2f7cf8b17ebe3b
+    m_Address: Dome
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Shader
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1cd884b4476283047979d188dc0f0d53
+    m_Address: Shader Graphs_FireEnemyDissolve
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Shader
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 65efc64055ce6eb4aa8ba4b6595f3a77
+    m_Address: FireEnemyDissolve
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Shader
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9e65d8dbadcd5194ab8ccfb669483c97
+    m_Address: LiquidFlow
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Shader
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6bb6029676c09d842adffcb280501f2c
+    m_Address: Shader Graphs_ShieldDomeSG 1
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Shader
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: ba675714c89c2624d898e6b7e69d2e68, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 73ce26c7b8161d045af0484da281e212, type: 2}
+    - {fileID: 11400000, guid: cfe7215b2b2b84b49adf5f2bf3f0c79a, type: 2}
